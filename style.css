@@ -1,0 +1,30 @@
+body {
+    font-family: "Arial", sans-serif;
+}
+
+h1{
+    padding-left: 17em;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 50px auto;
+    
+}
+.cell {
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 0 1px #333333;
+    border: 1px solid #333333;
+    cursor: pointer;
+    font-size: 100px;
+
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
